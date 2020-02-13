@@ -9,5 +9,6 @@ git config --global alias.feat 'flow feature start' # git feat <feature name>
 git config --global alias.bug 'flow bugfix start' # git bug <bugfix name>
 git config --global alias.hotfix 'flow hotfix start' # git hotfix <hotfix name>
 git config --global alias.dev 'checkout develop' # git dev
+git config --global alias.master 'checkout master' # git master
 git config --global alias.summary "!git --no-pager log --graph --pretty=format:'%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -10" # git summary
 git config --global alias.sum "summary" # git sum
