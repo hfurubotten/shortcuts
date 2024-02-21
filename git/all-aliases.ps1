@@ -12,3 +12,4 @@ git config --global alias.dev 'checkout develop' # git dev
 git config --global alias.master 'checkout master' # git master
 git config --global alias.summary "!git --no-pager log --graph --pretty=format:'%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -10" # git summary
 git config --global alias.sum "summary" # git sum
+git config --global alias.pus "!cat ~/.cat && git push" # git pus
